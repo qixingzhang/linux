@@ -14,6 +14,7 @@
 	};
 };
 
+/*
 &gem0 {
 	phy-handle = <&phy0>;
 	phy-mode = "rgmii-id";
@@ -24,6 +25,7 @@
 		marvell,reg-init=<3 16 0xff00 0x1e 3 17 0xfff0 0x0a>;
 	};
 };
+*/
 
 &usb0 {
 	xlnx,phy-reset-gpio = <&gpio0 85 0>;
